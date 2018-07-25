@@ -1,4 +1,7 @@
 {
+  "name": "Project-My-Reads",
+  "version": "0.0.1",
+  "private": true,
   "dependencies": {
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
