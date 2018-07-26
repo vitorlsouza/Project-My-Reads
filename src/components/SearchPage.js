@@ -29,7 +29,7 @@ class SearchPage extends Component {
         if (results.error) {
           this.setState({ loading: false, queryError: true });
         }
-        if (results) {
+        if (results.length > 0) {
           queryResult = results.map((result) => {
             return result;
           });
